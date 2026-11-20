@@ -58,9 +58,90 @@ We cannot read the Hash directly. We have to crack it with tools like John The R
 Password = `12345`
 Hash = `827ccb0eea8a706c4c34a16891f84e7b` 
 
+---
 
+## ⚙️ Activities Performed
 
+### 🔵 LAB 1: Password Cracking with John The Ripper
 
+**Step 1: Download & Setup**
+First, I downloaded John The Ripper and Jonny from the links provided by NetworkWalks and completed the setup on Windows.
+
+   **Link to download John the Ripper :** https://www.openwall.com/john/
+   
+   !(1-john-download.png)
+   
+   **Link to download Johnny :** https://openwall.info/wiki/john/johnny 
+   
+   !(2-screenshot-download-johnny.png)
+   
+**Step 2: Hash Extraction from PDF File**
+Then, I visited this website:
+`https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php`
+I uploaded the locked PDF file there, and the website gave me the hash of that file.
+
+!(3-hashcracker.png)
+
+**Step 3: Password Cracking with John The Ripper**
+After that, I gave this hash to John The Ripper / Jonny. John tried passwords from the wordlist and found the real password.
+
+!(4-password-find.png)
+
+**Step 4: Password Found & File Unlocked**
+I used the password found by John to open the locked PDF file successfully.
+
+!(5-open-file.png)
 
 ---
+
+### 🟢 LAB 2: Password Cracking with NetworkWalks Tools
+
+**Step 1: Hash Calculation**
+Then, I visited this website:
+`https://networkwalks.com/hash-calculator/`
+I uploaded the locked file there, and it gave me the hash of the file.
+
+!(6-networkwalks-hashcalculator.png)
+
+**Step 2: Password Cracking with NetworkWalks**
+Then, I visited this website:
+`https://networkwalks.com/password-cracker/`
+
+!(7-networkwalks-password-cracker.png)
+
+I pasted the hash there, and it guessed the password from the password list.
+
+!(8-networkwalks-list.png)
+
+---
+
+## ⚠️ Risk Analysis
+
+- If a password is short, simple, or common like `12345`, `password`, or `123456`, it can be cracked within a few seconds.
+- With such weak passwords, a hacker can easily open a file, account, or system.
+- If we want to protect our data, we should never use easy passwords.
+- Cracking a hash shows that just hiding the password is not enough, the password must also be strong.
+
+---
+
+## ✅ Recommendations
+
+- Always use a **long and strong password** - at least 12 characters.
+- Mix **Capital + Small letters + Numbers + Symbols** in the password. For example `Ayesha@2026#Secure`
+- Never use your name, date of birth, or an easy password like `12345`.
+- Use a **different password** for every account.
+- Turn on **Two-Factor Authentication (2FA)** wherever possible.
+
+---
+
+## 🏁 Conclusion
+
+In this project, I learned password cracking in two ways - one with John The Ripper and one with NetworkWalks tools. In both labs, I first extracted the hash and then found the password from that hash.
+
+I learned that a weak password can be cracked very quickly. That is why we should always create a strong password. This complete work was done only for study and learning purposes in a safe lab environment.
+
+---
+
+**Author:** Ayesha - B084H
+**Internship:** NetworkWalks - Week 3
 

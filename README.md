@@ -148,3 +148,8 @@ I learned that a weak password can be cracked very quickly. That is why we shoul
 **Author:** Ayesha - B084H
 **Internship:** NetworkWalks - Week 3
 
+---
+
+My Linkedin post link for this lab is :  
+https://lnkd.in/p/dGFv42rp
+

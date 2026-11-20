@@ -69,28 +69,29 @@ First, I downloaded John The Ripper and Jonny from the links provided by Network
 
    **Link to download John the Ripper :** https://www.openwall.com/john/
    
-   !(1-john-download.png)
+   ![John Download](1-john-download.png)
    
    **Link to download Johnny :** https://openwall.info/wiki/john/johnny 
    
-   !(2-screenshot-download-johnny.png)
+   ![Download Johnny](2-screenshot-download-johnny.png)
+   
    
 **Step 2: Hash Extraction from PDF File**
 Then, I visited this website:
 `https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php`
 I uploaded the locked PDF file there, and the website gave me the hash of that file.
 
-!(3-hashcracker.png)
+![HashCrack Website](3-hashcracker.png)
 
 **Step 3: Password Cracking with John The Ripper**
 After that, I gave this hash to John The Ripper / Jonny. John tried passwords from the wordlist and found the real password.
 
-!(4-password-find.png)
+![Password](4-password-find.png)
 
 **Step 4: Password Found & File Unlocked**
 I used the password found by John to open the locked PDF file successfully.
 
-!(5-open-file.png)
+![Open Pdf](5-open-file.png)
 
 ---
 
@@ -101,17 +102,19 @@ Then, I visited this website:
 `https://networkwalks.com/hash-calculator/`
 I uploaded the locked file there, and it gave me the hash of the file.
 
-!(6-networkwalks-hashcalculator.png)
+![Networkwalk Hash Calculator](6-networkwalks-hashcalculator.png)
 
 **Step 2: Password Cracking with NetworkWalks**
 Then, I visited this website:
 `https://networkwalks.com/password-cracker/`
 
-!(7-networkwalks-password-cracker.png)
+![Networkwalk Password Cracker](7-networkwalks-password-cracker.png)
+
 
 I pasted the hash there, and it guessed the password from the password list.
 
-!(8-networkwalks-list.png)
+
+![Networkwalk Password List](8-networkwalks-list.png)
 
 ---
 
